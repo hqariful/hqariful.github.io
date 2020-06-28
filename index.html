@@ -4,11 +4,12 @@
 <body>
 <h1 id="i">th</h1>
 <script>
-    const res=await fetch('./Json.txt')
+    var nam="Arif"
+    var some="Hobby"
+    const res=await fetch('https://hqariful-e9ebf.firebaseio.com/'+nam+'/'+some+'.json')
     const data=await res.json()
     //console.log(JSON.stringify(data))
-    var p=document.getElementById("i").innerHTML=data.color;
-
+    var p=document.getElementById("i").innerHTML=(data);
 </script>
 </body>
 </html>

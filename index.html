@@ -1,15 +1,31 @@
+<!DOCTYPE html>
 <html>
-<head>
-</head>
-<body>
-<h1 id="i">th</h1>
-<script>
-    var nam="Arif"
-    var some="Hobby"
-    const res=await fetch('https://hqariful-e9ebf.firebaseio.com/'+nam+'/'+some+'.json')
-    const data=await res.json()
-    //console.log(JSON.stringify(data))
-    var p=document.getElementById("i").innerHTML=(data);
-</script>
-</body>
+    <head>
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width" inital-scale="1.0"></meta>
+    </head>
+    <body>
+        <div class="header">
+            <h1>My Data</h1>
+        </div>
+    
+        <div class="col4">
+            <ul>
+                <li>home</li>
+                <li>program</li>
+                <li>hobby</li>
+            </ul>
+        </div>
+        <div class="col3">
+            <ul>
+                <li>bicyc</li>
+                <li>horn</li>
+                <li>radio</li>
+            </ul>
+        </div>
+    
+        <div class="col5" id="wr">
+            <p>hello my name is Arif.I am a student of CUET. I read in 3rd year mechanical</p>
+        </div>
+    </body>
 </html>

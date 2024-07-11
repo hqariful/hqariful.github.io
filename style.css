@@ -42,15 +42,24 @@ li {
   margin: 20px;
 }
 
-@media screen and (max-width: 800px) {
+#contact {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: large;
+  color: #fbf6e2;
+}
+
+#contact li {
+  margin: 20px;
+}
+
+@media screen and (max-width: 900px) {
   #myself {
     display: flex;
     flex-direction: column;
   }
   #navbar {
     font-size: medium;
-  }
-  #proPic {
   }
   #shortDes {
     font-size: xx-large;

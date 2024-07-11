@@ -11,7 +11,7 @@ body {
 }
 ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 a {
   color: #e68369;
@@ -46,6 +46,9 @@ li {
   #myself {
     display: flex;
     flex-direction: column;
+  }
+  #navbar {
+    font-size: medium;
   }
   #proPic {
   }

@@ -17,7 +17,7 @@ body {
 
 footer ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 a {
@@ -106,6 +106,7 @@ section {
 #contact {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   font-size: large;
   color: #fbf6e2;
 }

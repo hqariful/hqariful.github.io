@@ -10,15 +10,27 @@ body {
   position: sticky;
   top: 0px;
 }
-ul {
+#navbar ul {
   display: flex;
   justify-content: space-between;
 }
-#navbar a {
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
   color: #e68369;
   text-decoration: none;
 }
-li {
+
+footer ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+#navbar li {
   list-style-type: none;
   display: inline-block;
 }
@@ -26,7 +38,7 @@ li {
 #myself {
   background-color: #405d72;
   border-radius: 10%;
-  margin: 100px 20px 0px 20px;
+  margin: 20px 20px 0px 20px;
   display: flex;
   flex-direction: row;
 }
@@ -34,7 +46,7 @@ li {
 #about {
   background-color: #405d72;
   border-radius: 5%;
-  margin: 100px 20px 0px 20px;
+  margin: 20px 20px 0px 20px;
   display: flex;
   flex-direction: column;
 }
@@ -100,6 +112,7 @@ section {
 
 #contact li {
   margin: 20px;
+  display: inline-block;
 }
 
 @media screen and (max-width: 900px) {
